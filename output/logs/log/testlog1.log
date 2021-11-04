@@ -1,0 +1,38 @@
+2021-10-22 17:09:26,690 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:09:27,731 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:10:49,194 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:10:50,246 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:10:50,524 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:10:51,210 [main] INFO logger_File - user Enter eagles@teckschool.usand password eagles
+2021-10-22 17:10:51,980 [main] INFO logger_File - user clicked on Login Button
+2021-10-22 17:11:35,218 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:11:36,055 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:11:36,348 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:11:37,116 [main] INFO logger_File - user Enter eagles@teckschool.usand password eagles
+2021-10-22 17:11:37,899 [main] INFO logger_File - user clicked on Login Button
+2021-10-22 17:12:35,921 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:12:36,966 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:12:37,075 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:17:22,022 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:17:23,057 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:17:23,327 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:17:24,132 [main] INFO logger_File - user Enter eagles@teckschool.usand password eagles
+2021-10-22 17:17:24,943 [main] INFO logger_File - user clicked on Login Button
+2021-10-22 17:49:01,093 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:49:02,110 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:49:02,723 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:49:03,452 [main] INFO logger_File - user Enter eagles@tekschool.usand password eagles
+2021-10-22 17:49:04,504 [main] INFO logger_File - user clicked on Login Button
+2021-10-22 17:49:04,548 [main] INFO logger_File - user is logged in to MyAccount Dashboard
+2021-10-22 17:54:58,267 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-22 17:54:59,288 [main] INFO logger_File - user clicked on MyAccount
+2021-10-22 17:54:59,536 [main] INFO logger_File - user clicked on Login Option
+2021-10-22 17:55:00,316 [main] INFO logger_File - user Enter eagles@tekschool.usand password eagles
+2021-10-22 17:55:01,331 [main] INFO logger_File - user clicked on Login Button
+2021-10-22 17:55:01,395 [main] INFO logger_File - user is logged in to MyAccount Dashboard
+2021-10-26 02:21:28,651 [main] INFO logger_File - Actual Title is matching with expected title
+2021-10-26 02:21:29,412 [main] INFO logger_File - user clicked on MyAccount
+2021-10-26 02:21:29,846 [main] INFO logger_File - user clicked on Login Option
+2021-10-26 02:21:30,452 [main] INFO logger_File - user Enter eagles@tekschool.usand password eagles
+2021-10-26 02:21:33,849 [main] INFO logger_File - user clicked on Login Button
+2021-10-26 02:21:33,882 [main] INFO logger_File - user is logged in to MyAccount Dashboard

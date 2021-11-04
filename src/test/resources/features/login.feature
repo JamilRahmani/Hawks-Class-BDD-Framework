@@ -14,26 +14,29 @@ Feature: Login to Retail Website
  
 @smokeTest  @Regression  @endtoendTesting 
 Scenario: Retail website Login test
+
 Given user is on Retail website
 When user click on Myaccount
 And user click on Login option
-And user enter userName 'eagles@teckschool.us' and password 'eagles'
-And user click on Login Button
+And user enter userName 'eagles@tekschool.us' and password 'eagles'
+And user click on Login button
 Then user should be loged in to Myaccount dashboard
 
 
  @endtoendTesting 
 Scenario Outline: Retail website Login test with multiple account
+
 Given user is on Retail website
 When user click on Myaccount
 And user click on Login option
 And user enter userName '<userName> ' and password '<password>'
-And user click on Login Button
+And user click on Login button
 Then user should be loged in to Myaccount dashboard
 
 
-Example:
+Examples:
+
 |userNmae|password|
-|eagles@teckschool.us|eagles|
-|hawks@teckschool.us|hawks|
-|falcons@teckschool.us|falcons|
+|eagles@tekschool.us|eagles|
+|hawks@tekschool.us|hawks|
+|falcons@tekschool.us|falcons|

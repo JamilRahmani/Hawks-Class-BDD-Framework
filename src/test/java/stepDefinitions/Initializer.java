@@ -12,7 +12,7 @@ public class Initializer extends Base {
 	// After hooks will run After each senario
 
 	@Before
-	void beforeHooks(Scenario senario) {
+	public void beforeHooks(Scenario senario) {
 
 		browser();// This method comes from Base class and will lunch browser
 		openBrowser();// This method comes from Base class and will lunch url
@@ -20,7 +20,7 @@ public class Initializer extends Base {
 	}
 
 	@After
-	public void afterHooks() {
+	public void afterHooks(Scenario scenario ) {
 		tearDown();
 
 	}

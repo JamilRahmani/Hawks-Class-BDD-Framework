@@ -1,12 +1,15 @@
 package core;
 
 import java.io.BufferedReader;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-import org.apache.logging.log4j.Logger;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -34,12 +37,15 @@ public class Base {
 			BufferedReader reader = new BufferedReader(new FileReader(propertyPath));
 			properties = new Properties(); // we create object of Properties class
 			properties.load(reader); // we are using .load method of properties to load the properties file
-			reader.close(); //
+			reader.close(); //It close the 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		logger = logger.getLogger("logger_File");
+		PropertyConfigurator.configure(log4jPath);
+		
 	}
 
 	/**

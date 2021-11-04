@@ -1,8 +1,11 @@
 package runner;
 
+import org.junit.AfterClass;
+
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import utilities.CucumberReportingConfig;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -16,13 +19,24 @@ import io.cucumber.junit.CucumberOptions;
 		// plugin will be used for generating a readable report.
 		features = "classpath:features", 
 		glue = "stepDefinitions", 
-		tags = "@SmokeTest", 
-		dryRun = false, 
+		tags = "@smokeTest", 
+		dryRun = false,
 		monochrome = true, 
 		strict = true, 
-		plugin = {"pretty"}
+		plugin = {"pretty","html:target/site/cucumber-pretty","json:target/cucumber.json"},
+		publish = true
+		
 		)
 public class TestRunner {
+	/**
+	 * This method will invoke the Cucumber reporting once the execution is over.
+	 * @AfterClass annotation is from Junit and this will run after (AfterHooks)
+	 */
+	@AfterClass
+	public static void generateReport() {
+		CucumberReportingConfig.reportConfig();
+	
+	}
 	
 
 }
